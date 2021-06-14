@@ -8,4 +8,36 @@ body {
     background: #04A1BF;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
     }
+
+*,*::after, *::before{
+  box-sizing: inherit;
+}
+
+
+.listItems{
+  border: 2px solid red;
+}
+
+#todoMain{
+  text-align: left;
+  width: 75%;
+  margin: 2rem auto;
+  border: 2px solid;
+}
+
+input{
+  flex-grow: 1;
+  padding: 0.3rem 0.6rem;
+  font-size: 1.1rem; 
+}
+
+form{
+  display: flex;
+}
+
+.listItems li{
+  list-style-type: none;
+  padding: 0;
+}
