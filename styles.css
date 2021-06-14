@@ -1,0 +1,11 @@
+h1 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+body {
+    background: #04A1BF;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    }
